@@ -14,3 +14,9 @@ html {
   border: 0.1rem solid #0a2255;
   margin: 0 auto;
 }
+
+h1 a {
+  text-decoration: none;
+  font-size: 5rem;
+  color: #393977;
+}
