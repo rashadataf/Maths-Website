@@ -11,8 +11,7 @@ html {
 
 .container {
   width: 85vw;
-  height: 50vh;
-  border: 0.1rem solid #0a2255;
+  height: 75vh;
   margin: 0 auto;
 }
 
@@ -29,7 +28,6 @@ h1 a {
 
 .header__titleBox {
   float: left;
-  border: 1px solid black;
   margin-top: 1rem;
 }
 
@@ -109,4 +107,23 @@ h1 a {
   font-size: 2rem;
   font-weight: bold;
   color: #b314db;
+}
+
+.main {
+  height: 20rem;
+  background-image: linear-gradient(to right bottom, #e5f2bb, #b7e952);
+  padding: 3rem;
+  margin: 1.6rem 0;
+}
+
+.main .main__title {
+  font-size: 4.5rem;
+  color: #316901;
+  font-weight: normal;
+}
+
+.main .main__text p {
+  font-size: 2.5rem;
+  color: #628f19;
+  text-align: justify;
 }
