@@ -199,19 +199,24 @@ ul {
 
 @media screen and (min-width: 300px) {
   html {
-    font-size: 5px;
+    font-size: 4px;
+  }
+
+  h1 a {
+    font-size: 5rem;
   }
 
   .header__searchBox {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    width: 35rem;
   }
 
   .nav {
-    padding: 1.3rem;
+    padding: 1rem;
   }
 
   .nav .nav__list .nav__list--item:first-child {
-    margin-left: 8rem;
+    margin-left: 2rem;
   }
 
   .nav .nav__list .nav__list--item {
@@ -227,7 +232,7 @@ ul {
   }
 
   .sidebar {
-    height: 60rem;
+    height: 80rem;
   }
 
   .article__leftAside ul {
@@ -239,7 +244,7 @@ ul {
   }
 
   .article__leftAside ul li {
-    padding: 0.7rem 1.5rem;
+    padding: 0.1rem 1.5rem;
   }
 
   .article__rightAside ul li {
