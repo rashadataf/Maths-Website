@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  outline: none;
 }
 
 html {
@@ -21,10 +22,49 @@ h1 a {
   color: #393977;
 }
 
+.header {
+  height: 10rem;
+  padding: 1rem 0;
+}
+
 .header__titleBox {
   float: left;
+  border: 1px solid black;
+  margin-top: 1rem;
 }
 
 .header__searchBox {
   float: right;
+  background-image: linear-gradient(to right, #e4f2b9, #b7e953);
+  width: 40rem;
+  height: 6rem;
+  padding: 1.2rem;
+  margin-top: 1rem;
+  border-radius: 2.5rem;
+}
+
+.header__searchBox .text {
+  float: left;
+  width: 20rem;
+  padding: 0.9rem;
+  font-size: 1.5rem;
+  color: #e36a0c;
+  border-radius: 2rem;
+  background-image: url(../images/magnifier.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.header__searchBox .button {
+  float: right;
+  padding: 0.7rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #a751d6;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+}
+
+.clear {
+  clear: both;
 }
