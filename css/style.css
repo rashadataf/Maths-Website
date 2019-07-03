@@ -12,7 +12,7 @@ html {
 
 .container {
   width: 85vw;
-  height: 75vh;
+  height: 80vh;
   margin: 0 auto;
 }
 
@@ -194,4 +194,73 @@ ul {
   padding: 2rem 3rem;
   margin-top: 1.5rem;
   border-radius: 1rem;
+  bottom: 0;
+}
+
+@media screen and (min-width: 300px) {
+  html {
+    font-size: 5px;
+  }
+
+  .header__searchBox {
+    margin-top: 2rem;
+  }
+
+  .nav {
+    padding: 1.3rem;
+  }
+
+  .nav .nav__list .nav__list--item:first-child {
+    margin-left: 8rem;
+  }
+
+  .nav .nav__list .nav__list--item {
+    padding: 0 2rem;
+  }
+
+  .main {
+    height: 25rem;
+  }
+
+  .main .main__text p {
+    font-size: 2rem;
+  }
+
+  .sidebar {
+    height: 60rem;
+  }
+
+  .article__leftAside ul {
+    padding: 1rem 5.5rem;
+  }
+
+  .article__rightAside ul {
+    padding: 1rem 5.5rem;
+  }
+
+  .article__leftAside ul li {
+    padding: 0.7rem 1.5rem;
+  }
+
+  .article__rightAside ul li {
+    padding: 1rem 0.6rem 1.2rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 10px;
+  }
 }
