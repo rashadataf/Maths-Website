@@ -7,6 +7,7 @@
 
 html {
   font-size: 10px;
+  font-family: "Quicksand", sans-serif;
 }
 
 .container {
@@ -48,6 +49,7 @@ h1 a {
   font-size: 1.5rem;
   color: #e36a0c;
   border-radius: 2rem;
+  border: 1px solid #cbd03e;
   background-image: url(../images/magnifier.png);
   background-repeat: no-repeat;
   background-position: right;
@@ -148,12 +150,12 @@ h1 a {
 }
 
 .article__leftAside ul li {
-  padding: 1rem 0.6rem;
+  padding: 0.9rem 0.6rem;
   list-style-image: url(../images/right-arrow.png);
 }
 
 .article__rightAside ul li {
-  padding: 1rem 0.6rem 3.6rem;
+  padding: 1rem 0.6rem 3.2rem;
   list-style-image: url(../images/checked.png);
 }
 
@@ -182,4 +184,14 @@ ul {
 
 .article__rightAside {
   float: right;
+}
+
+.footer {
+  height: 6rem;
+  font-size: 2rem;
+  font-weight: bold;
+  background-image: linear-gradient(to right bottom, #f6f390, #d5d533);
+  padding: 2rem 3rem;
+  margin-top: 1.5rem;
+  border-radius: 1rem;
 }
