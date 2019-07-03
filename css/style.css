@@ -114,16 +114,72 @@ h1 a {
   background-image: linear-gradient(to right bottom, #e5f2bb, #b7e952);
   padding: 3rem;
   margin: 1.6rem 0;
+  border-radius: 1rem;
 }
 
 .main .main__title {
-  font-size: 4rem;
+  font-size: 2.5rem;
   color: #316901;
   font-weight: normal;
+  margin-bottom: 2rem;
 }
 
 .main .main__text p {
   font-size: 2.5rem;
   color: #628f19;
   text-align: justify;
+}
+
+.sidebar {
+  width: 48%;
+  height: 50rem;
+  border: 1px solid #baf46f;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+}
+
+.sidebar h3 {
+  color: #b314db;
+  font-size: 3rem;
+}
+
+.sidebar ul {
+  padding: 2rem 5rem;
+}
+
+.article__leftAside ul li {
+  padding: 1rem 0.6rem;
+  list-style-image: url(../images/right-arrow.png);
+}
+
+.article__rightAside ul li {
+  padding: 1rem 0.6rem 3.6rem;
+  list-style-image: url(../images/checked.png);
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #5d12e7;
+  transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+  text-decoration: none;
+  color: #b314db;
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+.article__leftAside {
+  float: left;
+}
+
+.article__rightAside {
+  float: right;
 }
