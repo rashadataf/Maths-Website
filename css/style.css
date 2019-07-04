@@ -202,6 +202,16 @@ ul {
     font-size: 4px;
   }
 
+  .header__searchBox .text {
+    width: 20rem;
+  }
+
+  .header__searchBox .button {
+    margin-top: -0.7rem;
+    width: 10rem;
+    font-size: 2rem;
+  }
+
   h1 a {
     font-size: 5rem;
   }
@@ -252,20 +262,64 @@ ul {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 480px) {
   html {
-    font-size: 6px;
+    font-size: 5.5px;
+  }
+
+  .article__rightAside ul li {
+    padding-bottom: 4rem;
+  }
+
+  .article__leftAside ul li {
+    padding-bottom: 1rem;
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 7px;
+  }
+
+  .article__rightAside ul li {
+    padding-bottom: 4.4rem;
+  }
+
+  .article__leftAside ul li {
+    padding-bottom: 1.9rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
   html {
     font-size: 9px;
   }
+
+  .article__rightAside ul li {
+    padding-bottom: 4.6rem;
+  }
+
+  .article__leftAside ul li {
+    padding-bottom: 2.4rem;
+  }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 9.5px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
   html {
     font-size: 10px;
+  }
+
+  .article__rightAside ul li {
+    padding-bottom: 6.8rem;
+  }
+
+  .article__leftAside ul li {
+    padding-bottom: 5rem;
   }
 }
